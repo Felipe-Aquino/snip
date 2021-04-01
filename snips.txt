@@ -1,0 +1,5 @@
+sql_s 'select * from \0;'
+sql_sw 'select * from \0 where \1;'
+psqlc 'psql -h localhost -p 5432 -U postgres'
+stg 'stagingqrexpress'
+prd 'vJm8DX7aFu6qqkSavhe5VfP38Kzh5ZHJHXz7Zy3w3Xh76dBJMMo7Lsqeutn5'
